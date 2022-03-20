@@ -1,6 +1,6 @@
 import { webhookCallback } from 'grammy';
 import express from 'express';
-import setupBot from './src/bot';
+import setupBot from './bot.js';
 
 const app = express();
 app.use(express.json());
@@ -12,3 +12,4 @@ const botOptions = {
 const bot = setupBot(botOptions);
 
 app.use(webhookCallback(bot, 'express'));
+app.listen(Number(process.env.PORT));
