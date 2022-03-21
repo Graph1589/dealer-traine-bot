@@ -1,6 +1,6 @@
 import { Bot } from 'grammy';
 
-const botSetup = (options: { botToken: any; }) => {
+const botSetup = (options) => {
   const { botToken } = options;
   const bot = new Bot(botToken);
 
