@@ -12,6 +12,7 @@
   "author": "Stanislav R",
   "license": "ISC",
   "dependencies": {
+    "@grammyjs/router": "^1.1.1",
     "express": "^4.17.3",
     "grammy": "^1.7.0"
   },
