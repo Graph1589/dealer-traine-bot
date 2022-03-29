@@ -12,9 +12,9 @@
   "author": "Stanislav R",
   "license": "ISC",
   "dependencies": {
+    "grammy": "^1.7.0",
     "@grammyjs/router": "^1.1.1",
-    "express": "^4.17.3",
-    "grammy": "^1.7.0"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "eslint": "^8.11.0",
